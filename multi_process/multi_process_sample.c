@@ -20,7 +20,7 @@ int main(void) {
 
         sleep(10);
 
-        n = 2;
+        n++;
         printf("child  n[%p]=%d\n", &n, n);
 
         return 1;
@@ -29,7 +29,7 @@ int main(void) {
 
         wait(&status);
 
-        n = 3;
+        n++;
         printf("parent n[%p]=%d\n", &n, n);
 
         return 0;
