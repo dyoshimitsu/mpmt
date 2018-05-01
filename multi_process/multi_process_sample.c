@@ -23,7 +23,7 @@ int main(void) {
         n++;
         printf("child  n[%p]=%d\n", &n, n);
 
-        return 1;
+        return 0;
     } else {
         printf("parent n[%p]=%d\n", &n, n);
 
