@@ -7,7 +7,7 @@ Multi-process and multi-thread sample program
 ### Compile
 
 ```shell
-$ clang multi_process_sample.c -o multi_process_sample.out
+$ clang multi_process/multi_process_sample.c -o multi_process_sample.out
 ```
 
 ### Execute
@@ -25,7 +25,7 @@ parent n[0x7fff50be56d8]=2
 ### Compile
 
 ```shell
-$ clang multi_thread_sample.c -o multi_thread_sample.out
+$ clang multi_thread/multi_thread_sample.c -o multi_thread_sample.out
 ```
 
 ### Execute
