@@ -25,11 +25,15 @@ parent n[0x7fff50be56d8]=2
 ### Compile
 
 ```shell
-
+$ clang multi_thread_sample.c -o multi_thread_sample.out
 ```
 
 ### Execute
 
 ```shell
-
+$ ./multi_thread_sample.out
+main   n[0x7fff5f63a6c8]=1
+thread n[0x7fff5f63a6c8]=1
+thread n[0x7fff5f63a6c8]=2
+main   n[0x7fff5f63a6c8]=3
 ```
