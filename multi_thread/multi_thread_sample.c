@@ -3,12 +3,12 @@
 #include <unistd.h>
 
 void func(int *n) {
-    printf("thread n[%p]=%d\n", n, *n);
+    printf("sub  n[%p]=%d\n", n, *n);
 
     sleep(10);
 
     (*n)++;
-    printf("thread n[%p]=%d\n", n, *n);
+    printf("sub  n[%p]=%d\n", n, *n);
 }
 
 int main(void) {
@@ -25,7 +25,7 @@ int main(void) {
         return 1;
     }
 
-    printf("main   n[%p]=%d\n", &n, n);
+    printf("main n[%p]=%d\n", &n, n);
 
     ret = pthread_join(pthread, NULL);
     if (ret != 0) {
@@ -35,7 +35,7 @@ int main(void) {
     }
 
     n++;
-    printf("main   n[%p]=%d\n", &n, n);
+    printf("main n[%p]=%d\n", &n, n);
 
     return 0;
 }
