@@ -6,7 +6,7 @@
 #define T_MAX 100
 
 void func() {
-    printf("sub\n");
+    printf(".\n");
 }
 
 int main(void) {

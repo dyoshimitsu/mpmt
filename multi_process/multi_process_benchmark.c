@@ -25,8 +25,7 @@ int main(void) {
 
         return 0;
     } else if (pid[i] == 0) {
-        printf("child\n");
-        sleep(1);
+        printf(".\n");
 
         return 0;
     } else {
