@@ -45,7 +45,7 @@ main   n[0x7ffeeccaa934]=3
 .
 .
 .
-processing time : 25752[ms]
+processing time : 25752[µs]
 ```
 
 #### Multi-thread
@@ -55,7 +55,7 @@ $ ./multi_thread_benchmark.out
 .
 .
 .
-processing time : 7904[ms]
+processing time : 7904[µs]
 ```
 
 ### Limit

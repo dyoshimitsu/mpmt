@@ -36,7 +36,7 @@ int main(void) {
     }
 
     end = clock();
-    printf("processing time : %lu[ms]\n", end - start );
+    printf("processing time : %lu[µs]\n", end - start );
 
     return 0;
 }
