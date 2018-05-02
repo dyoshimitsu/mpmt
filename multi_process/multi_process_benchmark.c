@@ -3,7 +3,7 @@
 #include <sys/wait.h>
 #include <time.h>
 
-#define P_MAX 300
+#define P_MAX 100
 
 int main(void) {
     int i;
@@ -25,7 +25,7 @@ int main(void) {
 
         return 0;
     } else if (pid[i] == 0) {
-        printf("child i=%d\n", i);
+        printf("child\n");
         sleep(1);
 
         return 0;
