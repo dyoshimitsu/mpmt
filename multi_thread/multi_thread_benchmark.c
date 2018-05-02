@@ -6,7 +6,7 @@
 #define T_MAX 100
 
 void func() {
-    printf(".\n");
+    printf(".");
 }
 
 int main(void) {
@@ -36,7 +36,7 @@ int main(void) {
     }
 
     end = clock();
-    printf("processing time : %lu[µs]\n", end - start );
+    printf("\nprocessing time : %lu[µs]\n", end - start );
 
     return 0;
 }
