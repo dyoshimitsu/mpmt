@@ -16,7 +16,7 @@ int main(void) {
     for(i = 0; i < INT_MAX; i++) {
         ret = pthread_create(&pthread, NULL, (void *)func, NULL);
         if (ret != 0) {
-            printf("\nGenerated threads : %d\n", i);
+            printf("\ngenerated threads : %d\n", i);
 
             return 1;
         }

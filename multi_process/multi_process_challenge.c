@@ -22,7 +22,7 @@ int main(void) {
             wait(&status);
         }
 
-        printf("\nGenerated processes : %d\n", count);
+        printf("\ngenerated processes : %d\n", count);
 
         return 1;
     }
